@@ -6,40 +6,92 @@ body {
   text-align: center;
 }
 .main-header {
-  padding-bottom: 15%;
   width: 100%;
+  height: 300px;
   background-size: cover;
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
-}
-/* from here */
+  padding: 10%;
+  padding-left: 10px;
+  }
+/* ここから */
 header {
+  background-color: #333240;
+  height: 50px;
+  font-size: 1rem;
 }
-header ul.top_menu { float: right;
-}
+header ul {
+    width: auto;
+    list-style-type: none;
+    margin: 0px;
+  }
 header ul a {
+  width: 120px;
+  float: left;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
 }
-header li .top_menu { float: left;
-width: auto;
+header ul li.right {
+  float: right;
+  }
+header ul li.left {
+    float: left;
+    }
+header li {
+  width: 120px;
+  float: right;
+  margin: 0;
 }
 header ul:after {
 }
-/* Up to here is the implementation of the header part */
+/* ここまでがheader部分の実装 */
 .main-header img {
-/* Implementation of main image (white “Achieve” text image) */
-}
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  color: #fff;
+  text-align:center;
+  text-decoration: none;
+  }
 .about {
 /* About Achieve部分の実装 */
+  text-align:center;
 }
-/* from here */
+/* ここから */
 .function {
-}
+  width: 100%;
+  background-color:#d3d3d3;
+  height: auto;
+	}
 .function-images {
+	display:block;
+  width: 100%;
+  height: 300px;
+	margin:5px; padding:20px; font-size:15px;
+	background-color:#d3d3d3; color:#000000;
+	text-align:center;
+	text-decoration:none;
 }
 .function-image {
+  width : 23%;
+  float : left;
+  margin : 10px;
 }
-/* Up to here is the implementation of the function part */
-footer {
-/* Implementation of footer part */
+/* ここまでがfunction部分の実装 */
+footer{
+width: 100%;
+height: 100px;
+bottom: 0;
+margin-top: -20px;
+background-color: #17223b;
+display: table;
 }
-/* The description of css written here is a template prepared only as a hint, so if you want to implement it without following the written description, you can implement it as you like. Any implementation will pass if it is determined that the task requirements are met and the code quality is at a certain level. */
+footer p {
+font-size: 1rem;
+color: #fff;
+text-align: center;
+}
+.clearfix:after {
+content: "";
+display: block;
+}
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
