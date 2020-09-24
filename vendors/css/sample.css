@@ -1,0 +1,45 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* from here */
+header {
+}
+header ul.top_menu { float: right;
+}
+header ul a {
+}
+header li .top_menu { float: left;
+width: auto;
+}
+header ul:after {
+}
+/* Up to here is the implementation of the header part */
+.main-header img {
+/* Implementation of main image (white “Achieve” text image) */
+}
+.about {
+/* About Achieve部分の実装 */
+}
+/* from here */
+.function {
+}
+.function-images {
+}
+.function-image {
+}
+/* Up to here is the implementation of the function part */
+footer {
+/* Implementation of footer part */
+}
+/* The description of css written here is a template prepared only as a hint, so if you want to implement it without following the written description, you can implement it as you like. Any implementation will pass if it is determined that the task requirements are met and the code quality is at a certain level. */
